@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/code"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="One \n(uno)"
+            android:textColor="#ffffff"
+            android:background="#E1BEE7"
+            android:id="@+id/b1"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Two \n(dos)"
+            android:textColor="#ffffff"
+        android:background="#558B2F"
+            android:id="@+id/b2"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Three \n(tres)"
+            android:textColor="#ffffff"
+            android:background="#BA68C8"
+            android:id="@+id/b3"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="four \n(cuatro)"
+            android:textColor="#ffffff"
+            android:background="#689F38"
+            android:id="@+id/b4"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:textColor="#ffffff">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Five \n(cinco)"
+            android:textColor="#ffffff"
+            android:background="#9C27B0"
+            android:id="@+id/b5"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Six \n(seis)"
+            android:textColor="#ffffff"
+            android:background="#8BC34A"
+            android:id="@+id/b6"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:textColor="#ffffff">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Seven \n(siete)"
+            android:textColor="#ffffff"
+            android:background="#7B1FA2"
+            android:id="@+id/b7"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Eight \n(ocho)"
+            android:textColor="#ffffff"
+            android:background="#AED581"
+            android:id="@+id/b8"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nine \n(nueve)"
+            android:textColor="#ffffff"
+            android:background="#4A148C"
+            android:id="@+id/b9"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Ten \n(diez)"
+            android:textColor="#ffffff"
+            android:background="#C5E1A5"
+            android:id="@+id/b10"
+            android:onClick="playSound"
+            android:soundEffectsEnabled="false"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

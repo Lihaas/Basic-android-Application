@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="165dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/aa"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+
+        android:textSize="120sp"
+        android:onClick="buttonClick"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@+id/aa"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="25dp"
+
+        android:background="@android:color/transparent"
+        android:textSize="120sp"
+        android:id="@+id/bb"
+        android:onClick="buttonClick"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@+id/bb"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClick"
+        android:textSize="130sp"
+        android:id="@+id/cc"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/dd"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="buttonClick"
+        android:textSize="150sp"
+        android:layout_below="@+id/aa"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@+id/dd"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClick"
+        android:textSize="140sp"
+        android:id="@+id/ee"
+        android:layout_below="@+id/bb"/>
+
+    <Button
+        android:id="@+id/ff"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/cc"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/bb"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClick"
+        android:textSize="130sp" />
+
+    <Button
+        android:id="@+id/gg"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aa"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClick"
+        android:textSize="130sp" />
+
+    <Button
+        android:id="@+id/hh"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_toRightOf="@+id/dd"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClick"
+        android:textSize="130sp" />
+
+    <Button
+        android:id="@+id/ii"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_toRightOf="@+id/bb"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClick"
+        android:textSize="130sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tik-Tak-Toe"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:id="@+id/name"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
